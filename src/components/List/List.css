@@ -1,0 +1,69 @@
+.button {
+  display: flex;
+  min-width: 50px;
+  height: 25px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background: #6c757d;
+  box-shadow: 0 5px #495057;
+  margin-left: 12px;
+}
+.button:hover {
+  box-shadow: 0 3px #495057;
+  top: 1px;
+}
+.button:active {
+  box-shadow: 0 0 #495057;
+  top: 5px;
+}
+.form-control {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+}
+
+.ListItems {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.ListItems:hover {
+  background-color: #89cff0;
+  border-radius: 5px;
+}
+
+.crossout {
+  color: #495057;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.filter-container {
+  display: flex;
+  padding: 5px;
+  padding-bottom: 40px;
+  margin-top: 5px;
+}

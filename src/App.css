@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.todo_sidebar {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  border-right: 2px solid #dcdcdc;
+  padding: 60px 20px;
+}
